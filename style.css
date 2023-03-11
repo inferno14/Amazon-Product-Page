@@ -1,0 +1,67 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #007185;
+}
+
+p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.title{
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.main-img{
+    box-shadow: 0px 2px 5px lightgray;
+    width: 330px;
+    height: 500px;
+}
+
+.product{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 3px solid #1f1f1f;
+    background-color: #fff;
+}
+
+.category{
+    color: #565959;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.left-column{
+    margin-right: 40px;
+}
+
+.author{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.ratings{
+    margin-bottom: 15px;
+    height: 25px;
+}
